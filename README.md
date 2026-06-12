@@ -58,6 +58,8 @@ fallow dupes --format markdown --output-file dupes.md
 
 # To produce an Analysis Summary 
 fallow --format markdown --summary --output-file summary.md
+
+fallow health --score --hotspots --targets --format markdown --output-file health-hotspots.md
 ```
 
 **To view reports**
