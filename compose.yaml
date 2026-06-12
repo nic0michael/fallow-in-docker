@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  fallow:
+    image: rust:latest
+    container_name: fallow
+
+    working_dir: /workspace
+
+    volumes:
+      - /mnt/c/UnSynchronized/ProjectsAZDO:/opt/ProjectsAZDO
+
+    tty: true
+    stdin_open: true
+
+    command: >
+      bash -c "
+      apt-get update &&
+      apt-get install -y nano less &&
+      cargo install fallow-cli &&
+      bash
+      "
