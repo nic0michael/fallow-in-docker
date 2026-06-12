@@ -22,7 +22,7 @@ mkdir -p /opt/stacks/fallow
 
 cd /opt/stacks/fallow
 
-# Edit the Compose file to point to your project folder
+# Edit the Compose file to point to your project folder (Use the code in the compose.yaml file provided)
 ### 	REMEMBER TO USE CTRL S AND CTRL X TO SAVE AND EXIT NANO
 nano compose.yaml
 
