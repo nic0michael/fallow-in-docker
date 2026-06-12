@@ -16,7 +16,8 @@ services:
     command: >
       bash -c "
       apt-get update &&
-      apt-get install -y nano less &&
+      apt-get install -y nano less nodejs npm &&
+      npm install -g pnpm &&
       cargo install fallow-cli &&
       bash
       "
