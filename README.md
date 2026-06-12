@@ -22,6 +22,11 @@ mkdir -p /opt/stacks/fallow
 
 cd /opt/stacks/fallow
 
+# Edit the Compose file to point to your project folder
+### 	REMEMBER TO USE CTRL S AND CTRL X TO SAVE AND EXIT NANO
+nano compose.yaml
+
+
 # Pull down the Docker components
 docker compose pull
 
