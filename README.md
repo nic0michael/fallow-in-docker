@@ -65,3 +65,6 @@ fallow --format markdown --summary --output-file summary.md
 # List latest reports (on top )
 ls -lt /mnt/c/UnSynchronized/ProjectsAZDO/<project folder>
 ```
+## Bibliography
+For instructions to use Fallow please refer to their GitHub page: \
+[https://github.com/fallow-rs/fallow](https://github.com/fallow-rs/fallow)
