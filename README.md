@@ -47,6 +47,10 @@ cd /opt/stacks/fallow
 # Open project folder
 cd /opt/ProjectsAZDO/<project folder>
 
+# If required
+npm install
+pnpm install
+
 #Run Dead Code Analysis
 fallow dead-code --format markdown --output-file dead-code.md
 
